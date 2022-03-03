@@ -72,7 +72,7 @@ namespace Metody04_08GitHub
             }
             return jePrvo;
         }
-        public static int PocetDeliteluSud(int cislo)
+        public  int PocetDeliteluSud(int cislo)
         {
             // metoda pro počet sudých dělitelů
             int pocSudych = 0;

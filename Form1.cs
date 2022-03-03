@@ -43,7 +43,8 @@ namespace Metody04_08GitHub
 
         private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Pocet sudých dělitelů je: " + CelaCisla.PocetDeliteluSud(8));
+            CelaCisla celocis = new CelaCisla();
+            MessageBox.Show("Pocet sudých dělitelů je: " + celocis.PocetDeliteluSud(8));
         }
     }
 }
