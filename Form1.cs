@@ -24,5 +24,26 @@ namespace Metody04_08GitHub
 
             MessageBox.Show(CelaCisla.Mocnina(x,y).ToString());
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(CelaCisla.Faktorial(12).ToString());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(CelaCisla.CifLichSoucet(1023).ToString());
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (CelaCisla.JePrvocislo(4)) MessageBox.Show("Cislo je prvocislo");
+            else MessageBox.Show("Cislo neni prvocislo");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Pocet sudých dělitelů je: " + CelaCisla.PocetDeliteluSud(8));
+        }
     }
 }
