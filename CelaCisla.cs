@@ -30,6 +30,7 @@ namespace Metody04_08GitHub
         }
         public static int Faktorial(int zaklad)
         {
+            //metoda faktorialu
             if (zaklad < 0) throw new ArgumentException("Faktoriál nelze spočítat");
             else
             {
@@ -45,6 +46,7 @@ namespace Metody04_08GitHub
         }
         public static int CifLichSoucet(int cislo)
         {
+            //metoda cifer lichých čísel
             int Soucifer = 0;
             while (cislo != 0)
             {
@@ -58,6 +60,7 @@ namespace Metody04_08GitHub
         }
         public static bool JePrvocislo(int cislo)
         {
+            //metoda pro prvočíslo
             bool jePrvo = true;
             if (cislo == 1 || cislo == 2) jePrvo = true;
             else
@@ -71,6 +74,7 @@ namespace Metody04_08GitHub
         }
         public static int PocetDeliteluSud(int cislo)
         {
+            // metoda pro počet sudých dělitelů
             int pocSudych = 0;
             for (int i = 1; i <= cislo / 2; ++i)
             {
